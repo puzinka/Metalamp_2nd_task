@@ -1,0 +1,145 @@
+@font-face{
+    font-family: "Monserrat Regular";
+    font-size: 19px;
+    font-style: normal;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'), url('/Fonts/Montserrat-Regular.ttf');
+}
+@font-face{
+    font-family: "Monserrat Bold";
+    font-size: 19px;
+    font-style: normal;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'), url('/Fonts/Montserrat-Bold.ttf');
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Logo*/
+.logo1{
+    fill: #1f2041;
+    fill-opacity: 25%;
+    width: 67px;
+    height: 67px;
+    margin-left: 40px;
+    margin-top: 40px;
+    float: left;
+}
+
+.left_block{
+    margin-left: 90px;
+    margin-top: 190px;
+    float: left;
+}
+.right_block{
+    margin-top: 192px;
+    padding-right: 200px;
+    float: right;
+}
+.textbox{
+    margin-bottom: 145px;
+}
+
+/*Palette*/
+.palette{
+    padding-bottom: 39px;
+}
+.rectangle_100{
+    background: #1f2041;
+    width: 92px;
+    height: 92px;
+    margin-bottom: 27px;
+    border-radius: 6px;
+    float:left;
+}
+.rectangle_75{
+    background: #1f2041;
+    opacity: 75%;
+    width: 92px;
+    height: 92px;
+    margin-bottom: 27px;
+    border-radius: 6px;
+    float:left;
+}
+.rectangle_50{
+    background: #1f2041;
+    opacity: 50%;
+    width: 92px;
+    height: 92px;
+    margin-bottom: 27px;
+    border-radius: 6px;
+    float:left;
+}
+.rectangle_25{
+    background: #1f2041;
+    opacity: 25%;
+    width: 92px;
+    height: 92px;
+    margin-bottom: 27px;
+    border-radius: 6px;
+    float:left;
+}
+.rectangle_5{
+    background: #1f2041;
+    opacity: 5%;
+    width: 92px;
+    height: 92px;
+    margin-bottom: 27px;
+    border-radius: 6px;
+    float:left;
+}
+.rectangle_purple{
+    background: #bc9cff;
+    width: 92px;
+    height: 92px;
+    margin-bottom: 27px;
+    border-radius: 6px;
+    float:left;
+}
+.rectangle_green{
+    background: #6fcf97;
+    width: 92px;
+    height: 92px;
+    margin-bottom: 27px;
+    border-radius: 6px;
+    float:left;
+}
+
+/*Ponts for palette*/
+.color_name{
+    font-family: "Monserrat Bold";
+    font-size: 25px;
+    margin-left: 147px;
+    padding-top: 15px;
+    color:#1f2041;
+}
+.color_number{
+    font-family: "Monserrat Regular";
+    font-size: 25px;
+    margin-left: 147px;
+    padding-top: 5px;
+    color:#1f2041;
+}
+
+/*Rigth block*/
+.name_fonts{
+    font-family: "Monserrat Regular";
+    color: #1f2041;
+    opacity: 25%;
+    float: left;
+    margin-right: 44px;
+}
+.text{
+    font-family: "Monserrat Bold";
+    color: #1f2041;
+    opacity: 100%;
+    float: left;
+    width: 500px;
+}
+.text_body{
+    font-family: "Monserrat Regular";
+    color: #1f2041;
+    opacity: 100%;
+    float: left;
+    width: 500px;
+}
