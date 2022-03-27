@@ -6,8 +6,19 @@ body{
     background: #E5E5E5;
 }
 
+/******************Fonts************************/
+@font-face{
+    font-family: "Monserrat Regular";
+    font-style: normal;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'), url('/Fonts/Montserrat-Regular.ttf');
+}
+@font-face{
+    font-family: "Monserrat Bold";
+    font-style: normal;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'), url('/Fonts/Montserrat-Bold.ttf');
+}
 
-/*Logo*/
+/******************Logo*************************/
 .logo1{
     width: 57px;
     height: 57px;
@@ -34,4 +45,74 @@ header{
     height: 16px;
     margin-top: 32px;
     margin-left: 10px;
+}
+
+.registration{
+    width: 230px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 160px;
+    background: linear-gradient(#BC9CFF,#8BA4F9);
+    float:right;
+}
+.login{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 15px;
+    background: linear-gradient(#BC9CFF,#8BA4F9);
+    float: right;
+}
+.login div:first-child{
+    width: 96px;
+    height: 36px;
+    border-radius: 18px;
+    background: white;
+    margin-top: 2px;
+    margin-right: 2px;
+    float: right;
+}
+.font_bold{
+    font-family: "Monserrat Bold";
+    font-size: 14px;
+}
+.font_regular{
+    font-family: "Monserrat Regular";
+    font-size: 16px;
+    color: rgba(31,32,65,0.5);
+    float:right;
+    margin-top: 32px;
+    margin-right: 8px;
+    margin-left: 16px;
+}
+.font_gray{
+    color: rgba(31,32,65,0.75);
+    font-family: "Monserrat Bold";
+    font-size: 16px;
+    float:right;
+    margin-top: 32px;
+    margin-right: 8px;
+}
+.expend_more{
+    width: 14px;
+    float:right;
+    margin-top: 37px;
+    margin-right: 15px;
+}
+.reg_text{
+    color: white;
+    margin-top: 11px;
+    width: 230px;
+    text-align: center;
+}
+.login_text{
+    background: linear-gradient(#BC9CFF,#8BA4F9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 10px;
+    text-align: center;
+
 }
