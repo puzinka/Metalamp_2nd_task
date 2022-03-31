@@ -14,6 +14,9 @@ html{
 .left{
     float: left;
 }
+.distance{
+    margin-top: 2rem;
+}
 /******************Fonts************************/
 @font-face{
     font-family: "Monserrat Regular";
@@ -43,6 +46,11 @@ html{
 .Font_D50{
     color: rgba(31,32,65,0.5);
 }
+.size_font{
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+}
+
 /******************Main Logo*************************/
 .main_logo{
     width: 2.6rem;
@@ -131,6 +139,20 @@ nav .menu:last-child{
     font-size: 0.7rem;
     line-height: 0.7rem;
 }
+/***************************Second Header***********************/
+.rect{
+    width: 0.1rem;
+    height: 1.6rem;
+    background: rgba(31,32,65,0.1);
+    margin: 0.4rem 1rem;
+}
+.top_text_margin{
+    margin-top: 0.7rem;
+}
+
+/**************************First Footer************************/
+
+
 /*
 .logo_header{
     width: 50px;
