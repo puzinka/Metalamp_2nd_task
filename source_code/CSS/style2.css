@@ -1,11 +1,19 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 body{
-    background: #E5E5E5;
+    background: #F4F4F6;
 }
-
+html{
+    font-size: 1vw;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
 /******************Fonts************************/
 @font-face{
     font-family: "Monserrat Regular";
@@ -17,22 +25,113 @@ body{
     font-style: normal;
     src: local('Montserrat Bold'), local('Montserrat-Bold'), url('/Fonts/Montserrat-Bold.ttf');
 }
-
-/******************Logo*************************/
-.logo1{
-    width: 57px;
-    height: 57px;
-    margin-left: 35px;
-    margin-top: 35px;
-    margin-bottom: 15px;
+.FontR{
+    font-family: "Monserrat Regular";
+}
+.FontB{
+    font-family: "Monserrat Bold";
+}
+.Font_purple{
+    color: #BC9CFF;
+}
+.Font_white{
+    color:white;
+}
+.Font_D100{
+    color: rgba(31,32,65,1);
+}
+.Font_D50{
+    color: rgba(31,32,65,0.5);
+}
+/******************Main Logo*************************/
+.main_logo{
+    width: 2.6rem;
+    margin: 1.6rem 1.6rem 2.9rem;
 }
 
+/*******************Header***************************/
 header{
     background: white;
-    height: 80px;
-    box-shadow: 0px 10px 20px 0px rgba(31,32,65,0.05);
-    margin-top: 50px;
+    height: 2.2rem;
+    box-shadow: 0rem 0.25rem 0.5rem 0rem rgba(31,32,65,0.05);
+    padding: 0.7rem 7.3rem;
 }
+/*logo gradient*/
+.logo{
+    width: 2.2rem;
+}
+.logo_name{
+    height: 0.75rem;
+    margin: 0rem 0rem 0.77rem 0.25rem;
+}
+/*navigation*/
+nav{
+    margin-top: 0.7rem;
+}
+.menu{
+    margin-left: 0.8rem;
+}
+nav .menu:first-child{
+    width: 6.5rem;
+    margin-right: 0.3rem;
+}
+nav .menu:nth-child(2){
+    width: 3.7rem;
+}
+nav .menu:nth-child(3){
+    width: 4.2rem;
+}
+nav .menu:nth-child(4){
+    width: 4.2rem;
+}
+nav .menu:last-child{
+    width: 2.5rem;
+}
+.menu_header{
+    font-family: "Monserrat Regular";
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+    color: rgba(31,32,65,0.5);
+}
+.menu_header:hover{
+    font-family: "Monserrat Bold";
+    color: rgba(31,32,65,0.75);
+}
+.expend_more{
+    width: 0.7rem;
+    margin: 0.2rem 0rem 0rem 0.3rem;
+}
+
+/**********************First Header*************************/
+.size .registration:first-child{
+    width: 11rem;
+    padding: 0.6rem 0rem;
+    height: 0.7rem;
+    font-size: 0.7rem;
+    line-height: 0.7rem;
+}
+.size .registration:last-child{
+    width: 4.3rem;
+    padding: 0.1rem 0.1rem;
+    height: 1.7rem;
+}
+.registration{
+    margin: 0.15rem 0rem 0.15rem 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    background: linear-gradient(#BC9CFF,#8BA4F9);
+}
+.login{
+    background: white;
+    width: 4.25rem;
+    height: 0.7rem;
+    padding: 0.5rem 0rem;
+    border-radius: 1rem;
+    text-align: center;
+    font-size: 0.7rem;
+    line-height: 0.7rem;
+}
+/*
 .logo_header{
     width: 50px;
     height: 50px;
@@ -275,4 +374,4 @@ header{
     color: rgba(31,32,65,0.25);
     font-family: "Monserrat Regular";
     font-size: 16px;
-}
+}*/
