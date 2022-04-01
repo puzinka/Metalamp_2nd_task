@@ -239,6 +239,21 @@ input{
     width: 1.1rem;
     margin-left: 1.2rem;
 }
+
+/************************Second Footer***********************/
+.second_footer{
+    margin: 2rem 29.6rem 7.4rem;
+    padding: 6.3rem 10rem;
+    width: 20rem;
+    height: 6.6rem;
+    background: white;
+}
+.logo_footer2{
+    margin: 0rem 7.1rem 0.8rem;
+}
+.all_icons_2f{
+    margin: 1.5rem 7.3rem 0rem 0rem;
+}
 /*
 .logo_header{
     width: 50px;
