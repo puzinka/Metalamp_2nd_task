@@ -30,9 +30,11 @@ html{
 }
 .FontR{
     font-family: "Monserrat Regular";
+    letter-spacing: -0.045rem;
 }
 .FontB{
     font-family: "Monserrat Bold";
+    letter-spacing: -0.045rem;
 }
 .Font_purple{
     color: #BC9CFF;
@@ -46,7 +48,14 @@ html{
 .Font_D50{
     color: rgba(31,32,65,0.5);
 }
-.size_font{
+.Font_D75{
+    color: rgba(31,32,65,0.75);
+}
+.size_font7{
+    font-size: 0.7rem;
+    line-height: 0.7rem;
+}
+.size_font8{
     font-size: 0.8rem;
     line-height: 0.8rem;
 }
@@ -61,8 +70,10 @@ html{
 header{
     background: white;
     height: 2.2rem;
-    box-shadow: 0rem 0.25rem 0.5rem 0rem rgba(31,32,65,0.05);
     padding: 0.7rem 7.3rem;
+}
+.shadow{
+    box-shadow: 0rem 0.25rem 0.5rem 0rem rgba(31,32,65,0.05);
 }
 /*logo gradient*/
 .logo{
@@ -151,8 +162,83 @@ nav .menu:last-child{
 }
 
 /**************************First Footer************************/
-
-
+footer{
+    height: 23.1rem;
+}
+.footer1{
+    padding: 5.25rem 7.3rem 4.6rem;
+    height: 9.55rem;
+    background: white;
+}
+.footer2{
+    padding: 1.3rem 7.3rem;
+    background: white;
+    width: 84.6rem;
+    height: 1.1rem;
+}
+.line{
+    background:rgba(31,32,65,0.1);
+    height: 0.05rem;
+    width: 99.2rem;
+}
+.text_footer{
+    width: 13rem;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    margin-top: 0.95rem;
+}
+.column{
+    margin-right:8.8rem;
+}
+.footer1 .column:first-child{
+    width: 13rem;
+}
+.footer1 .column:nth-child(2){
+    width: 7.6rem;
+    margin-top: 0.3rem;
+}
+.footer1 .column:nth-child(3){
+    width: 6rem;
+    margin-top: 0.3rem;
+}
+.footer1 .column:nth-child(4){
+    width: 8rem;
+    margin-top: 0.3rem;
+}
+.footer1 .column:last-child{
+    width: 14.8rem;
+    margin-right: 0rem;
+    margin-top: 0.3rem;
+}
+.input_case{
+    width: 13rem;
+    height: 1rem;
+    border-radius: 0.25rem;
+    border: 0.1rem solid rgba(31,32,65,0.25);
+    margin-top: 1.4rem;
+    padding: 0.4rem 0.6rem 0.6rem;
+}
+input{
+    color: rgba(31,32,65,0.25);
+    outline: none;
+    border: none;
+}
+.arrow{
+    width: 1rem;
+}
+.menu_footer{
+    font-family: "Monserrat Regular";
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+    color: rgba(31,32,65,0.5);
+}
+.menu_footer:hover{
+    color: rgba(31,32,65,0.75);
+}
+.icon{
+    width: 1.1rem;
+    margin-left: 1.2rem;
+}
 /*
 .logo_header{
     width: 50px;
