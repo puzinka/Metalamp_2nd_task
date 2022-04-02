@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 1vw;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+
+/******************Fonts************************/
+@font-face{
+    font-family: "Monserrat Regular";
+    font-style: normal;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'), url('/Fonts/Montserrat-Regular.ttf');
+}
+@font-face{
+    font-family: "Monserrat Bold";
+    font-style: normal;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'), url('/Fonts/Montserrat-Bold.ttf');
+}
+.FontR{
+    font-family: "Monserrat Regular";
+    letter-spacing: -0.045rem;
+}
+.FontB{
+    font-family: "Monserrat Bold";
+    letter-spacing: -0.045rem;
+}
+.Font_purple{
+    color: #BC9CFF;
+}
+.Font_white{
+    color:white;
+}
+.Font_D100{
+    color: rgba(31,32,65,1);
+}
+.Font_D50{
+    color: rgba(31,32,65,0.5);
+}
+.Font_D75{
+    color: rgba(31,32,65,0.75);
+}
+.size_font7{
+    font-size: 0.7rem;
+    line-height: 0.7rem;
+}
+.size_font8{
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+}
+
+/******************Main Logo*************************/
+.main_logo{
+    width: 2.6rem;
+    margin: 1.6rem 1.6rem 2.9rem;
+}
+
+/*columns*/
+.columm1{
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem 3rem 10rem 5rem;
+}
+
+
+/*Input*/
+.input_case_focus{
+    border-radius: 0.25rem;
+    border: 0.1rem solid rgba(31,32,65,0.5);
+}
+.part_input{
+    width: ;
+}
+.title{
+    margin-bottom: 1rem;
+}
+.input_case{
+    border-radius: 0.25rem;
+    border: 0.1rem solid rgba(31,32,65,0.25);
+}
+.input_all{
+    width: 15.3rem;
+    height: 1rem;
+    padding: 0.4rem 0.6rem 0.6rem;
+}
+input{
+    color: rgba(31,32,65,0.75);
+    outline: none;
+    border: none;
+}
+input::placeholder{
+    color: rgba(31,32,65,0.25);
+}
