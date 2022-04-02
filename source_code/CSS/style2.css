@@ -211,12 +211,22 @@ footer{
     margin-top: 0.3rem;
 }
 .input_case{
-    width: 13rem;
-    height: 1rem;
     border-radius: 0.25rem;
     border: 0.1rem solid rgba(31,32,65,0.25);
-    margin-top: 1.4rem;
+}
+.input_middle{
+    width: 12.45rem;
+    height: 1rem;
     padding: 0.4rem 0.6rem 0.6rem;
+    background: white;
+}
+.input_footer{
+    margin-top: 1.4rem;
+    width: 13.7rem;
+    height: 2.3rem;
+}
+.input_size_middle{
+    width: 11rem;
 }
 input{
     color: rgba(31,32,65,0.75);
